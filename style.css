@@ -1,0 +1,80 @@
+/***** 
+            MAIN STYLES 
+******/
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    margin-top: 1%;
+    margin-left: 5%;
+    font-weight: bolder;
+}
+
+img {
+    margin-left: 10%;
+    width: 70%;
+    height: 350px;
+    object-fit: contain;
+}
+
+.container {
+    padding: 70px 0;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 30px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+   font-size: 50px;
+}
+
+.box {
+    width: 80%;
+}
+
+p {
+    width: 70%;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    margin-top: 6%;
+}
+
+/******* 
+                MOBILE STYLES 
+*******/
+@media (max-width: 800px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        margin-left: 5%;
+    }
+    
+    .box {
+        width: 100%;
+        margin: 0px 5px;
+    }
+    p {
+        width: 80%;
+        font-size: 20px;
+    }
+}
